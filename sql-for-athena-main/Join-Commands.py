@@ -9,3 +9,6 @@ pd.merge(df1, df2, on = "col_name", how = "left")
 
 #Right Join:
 pd.merge(df1, df2, on = "col_name", how = "right")
+
+# option to add in for prefixes
+suffixes = ["_l", "_r"]
